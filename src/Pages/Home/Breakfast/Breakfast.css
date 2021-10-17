@@ -1,0 +1,7 @@
+.breakfast-card{
+transition: 1s;
+}
+.breakfast-card:hover{
+background-color: #ffda79;
+border-radius: 20px;
+}

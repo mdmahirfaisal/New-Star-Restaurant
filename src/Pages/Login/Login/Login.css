@@ -1,0 +1,17 @@
+.login-bg{
+    /* padding-top: 7rem; */
+    /* background: url("https://i.ibb.co/Vpt4NtY/food-bg.jpg"); */
+    background-color: rgba(17, 2, 41, 0.611);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+.bg-color-form{
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.bg-height{
+    height: 1000px;
+}

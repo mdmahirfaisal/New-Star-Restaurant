@@ -1,0 +1,7 @@
+.lunch-card{
+    transition: 1s;
+    }
+    .lunch-card:hover{
+    background-color: #ffda79;
+    border-radius:20px;
+    }

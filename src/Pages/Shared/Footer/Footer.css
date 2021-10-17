@@ -1,0 +1,12 @@
+.footer-bar{
+    padding-top: 1rem;
+    background-color: #1e3799;
+    transition: 0.6s;
+}
+.footer-bar:hover{
+    
+    background-color: #0967aa;
+}
+.footer-logo{
+  height: 200px;
+}
