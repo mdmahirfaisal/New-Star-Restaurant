@@ -3,6 +3,10 @@ import { useState } from 'react';
 import { useParams } from 'react-router';
 import { HashLink } from 'react-router-hash-link';
 import data from '../../fakeData/data';
+import Bounce from 'react-reveal/Bounce';
+import Zoom from 'react-reveal/Zoom';
+
+
 console.log(data);
 
 const Booking = () => {
@@ -44,8 +48,8 @@ const Booking = () => {
 
             <div className="row d-flex align-items-center text-start">
                 <div className="col-sm-12- col-md-5">
-                    <h1>{name}</h1>
-                    <p>{description}</p>
+                    <h1 className="text-primary fw-bold"><Bounce top cascade duration={2000}>{name}</Bounce></h1>
+                    <p><Bounce top cascade duration={2000}>{description}</Bounce></p>
                     <div className="d-flex align-items-center">
                         <h2 className="">$ <span className="text-danger">{price}</span></h2>
 
@@ -61,9 +65,11 @@ const Booking = () => {
 
                 </div>
                 <div className="col-sm-12 col-md-7">
-                    <div className="container">
-                        <img className="img-fluid p-5" src={img} alt="" />
-                    </div>
+                    <Zoom duration={2500}>
+                        <div className="container">
+                            <img className="img-fluid p-5" src={img} alt="" />
+                        </div>
+                    </Zoom>
                 </div>
             </div>
 

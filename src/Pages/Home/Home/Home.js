@@ -54,7 +54,7 @@ const Home = () => {
                         value={value}
                         onChange={handleChange}
                         indicatorColor="secondary"
-                        textColor="dark"
+                        textColor="secondary"
                         centered
                     >
                         <Tab onClick={handleBreakfast} label="Breakfast" />
@@ -90,7 +90,7 @@ const Home = () => {
                         }
                     </div>
                 </div>
-                <button type="button" class="btn btn-lg btn-secondary my-3" disabled>Check out your food</button>
+                <button type="button" className="btn btn-lg btn-secondary my-3" disabled>Check out your food</button>
 
             </div>
             {/* resurve table  */}
