@@ -11,6 +11,7 @@ import Dinner from '../Dinner/Dinner';
 import FoodMan from '../FoodMan/FoodMan';
 import Resurve from '../Resurve/Resurve';
 import './Home.css';
+import Contact from '../Contact/Contact';
 
 
 const Home = () => {
@@ -102,6 +103,11 @@ const Home = () => {
             {/* delivery show  */}
             <div id="delivery">
                 <FoodMan></FoodMan>
+            </div>
+
+            {/* contact show  */}
+            <div id="delivery">
+                <Contact></Contact>
             </div>
 
 

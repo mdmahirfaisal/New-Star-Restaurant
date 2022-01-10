@@ -39,7 +39,7 @@ const Header = () => {
                             <Nav.Link className={isSticky ? " text-dark fs-5" : "text-white fs-5"} as={HashLink} to="/home#foods">Foods</Nav.Link>
                             <Nav.Link className={isSticky ? " text-dark fs-5" : "text-white fs-5"} as={HashLink} to="/home#booking">About</Nav.Link>
                             <Nav.Link className={isSticky ? " text-dark fs-5" : "text-white fs-5"} as={HashLink} to="/home#delivery">Delivery</Nav.Link>
-                            <Nav.Link className={isSticky ? " text-dark fs-5" : "text-white fs-5"} as={HashLink} to="/home#contact">Contact us</Nav.Link>
+                            <Nav.Link className={isSticky ? " text-dark fs-5" : "text-white fs-5"} as={HashLink} to="/home#contact">Contact</Nav.Link>
                         </Nav>
                         <Nav className="d-flex align-items-center">
                             {user?.email ?
